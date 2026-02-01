@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  background-color:lightcoral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#pet {
+  width: 200px;
+  height: 200px;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.face {
+  font-size: 24px;
+}
+
+#status, #health {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
